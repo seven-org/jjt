@@ -1,0 +1,55 @@
+{
+  "hints": [],
+  "groups": [
+    {
+      "sourceType": "com.jjt.template.config.TemplateProperties",
+      "name": "template_properties",
+      "type": "com.jjt.template.config.TemplateProperties"
+    },
+    {
+      "sourceType": "com.jjt.template.config.TemplateProperties",
+      "name": "template_properties.async",
+      "sourceMethod": "public com.jjt.template.config.TemplateProperties.Async getAsync() ",
+      "type": "com.jjt.template.config.TemplateProperties$Async"
+    },
+    {
+      "sourceType": "com.jjt.template.config.TemplateProperties",
+      "name": "template_properties.cache",
+      "sourceMethod": "public com.jjt.template.config.TemplateProperties.Cache getCache() ",
+      "type": "com.jjt.template.config.TemplateProperties$Cache"
+    },
+    {
+      "sourceType": "com.jjt.template.config.TemplateProperties$Cache",
+      "name": "template_properties.cache.ehcache",
+      "sourceMethod": "public com.jjt.template.config.TemplateProperties.Cache.Ehcache getEhcache() ",
+      "type": "com.jjt.template.config.TemplateProperties$Cache$Ehcache"
+    }
+  ],
+  "properties": [
+    {
+      "sourceType": "com.jjt.template.config.TemplateProperties$Async",
+      "name": "template_properties.async.core-pool-size",
+      "type": "java.lang.Integer"
+    },
+    {
+      "sourceType": "com.jjt.template.config.TemplateProperties$Async",
+      "name": "template_properties.async.max-pool-size",
+      "type": "java.lang.Integer"
+    },
+    {
+      "sourceType": "com.jjt.template.config.TemplateProperties$Async",
+      "name": "template_properties.async.queue-capacity",
+      "type": "java.lang.Integer"
+    },
+    {
+      "sourceType": "com.jjt.template.config.TemplateProperties$Cache$Ehcache",
+      "name": "template_properties.cache.ehcache.max-entries",
+      "type": "java.lang.Long"
+    },
+    {
+      "sourceType": "com.jjt.template.config.TemplateProperties$Cache$Ehcache",
+      "name": "template_properties.cache.ehcache.time-to-live-seconds",
+      "type": "java.lang.Integer"
+    }
+  ]
+}
